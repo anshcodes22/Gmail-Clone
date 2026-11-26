@@ -1,6 +1,37 @@
 export const INITIAL_EMAILS = [
   {
     "id": "1",
+    "sender": "GTBIT PLACEMENTS",
+    "senderEmail": "placement@gtbit.ac.in",
+    "to": "Deepanshu, SAURABH, Prabhmehar, igaman717, Harmeet, Hridyamann, TEGVEER, PUSHPENDER, Jagjeet, Gurdeep, navneett.kaur006, MUSKAN, Prem, Anju, Kunwarveer, eshpreet, JASLEEN, Jap, me",
+    "subject": "Consultadd || AI Test link.",
+    "snippet": "- Dear Students, PFA, the excel sheet with test link & slot details.",
+    "body": "Dear Students,\n\nPFA, the excel sheet with test link & slot details.\n\n\n--\nGuru Tegh Bahadur Institute of Technology\nTraining & Placement Cell\nFollow us: Website | LinkedIn | Instagram | YouTube\nContact us: +011 455-999-00 | Email | Gmail\nLocation: Google Maps",
+    "time": "4:24 PM",
+    "unread": true,
+    "starred": true,
+    "selected": false,
+    "hasCalendar": false,
+    "hasUnsubscribe": false,
+    "category": "primary",
+    "folder": "inbox",
+    "attachments": [
+      {
+        "id": "att-consultadd-slots",
+        "name": "GTBITCybersecurity_Test_Slots.xlsx",
+        "size": "142 KB",
+        "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+      },
+      {
+        "id": "att-consultadd-shortlist",
+        "name": "GTBITCYBERII_interview_shortlist.xlsx",
+        "size": "186 KB",
+        "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+      }
+    ]
+  },
+  {
+    "id": "2",
     "sender": "Supabase",
     "senderEmail": "supabase@example.com",
     "to": "me <user@example.com>",
@@ -18,7 +49,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "2",
+    "id": "3",
     "sender": "Team AccioJob",
     "subject": "about your Guru Tegh Bahadur Institute of Technology - [GTBIT] placements",
     "snippet": "- like a senior giving feedback on your performance and career roadmap",
@@ -32,7 +63,25 @@ export const INITIAL_EMAILS = [
     "body": "Hi Ansh,\n\nWe recently analyzed the placement statistics for Guru Tegh Bahadur Institute of Technology - [GTBIT] and wanted to share actionable feedback on your preparation for upcoming software engineering interviews.\n\nKey areas covered:\n- Data Structures & Algorithms preparation milestones\n- System Design fundamentals\n- Mock interview schedules and senior mentorship\n\nBest regards,\nTeam AccioJob"
   },
   {
-    "id": "3",
+    "id": "4",
+    "sender": "Vercel",
+    "senderEmail": "notifications@vercel.com",
+    "to": "me <user@example.com>",
+    "subject": "[Access Request] gourav05bhardwaj-9052 requested access to gmail-clone-66b6bnnnf-mrmorpho1s-projects.vercel.app",
+    "snippet": "- gourav05bhardwaj@gmail.com wants access to a URL in gmail-clone",
+    "body": "Access request\n\nHello, mrmorpho1.\n\ngourav05bhardwaj@gmail.com wants access to a URL in gmail-clone:\ngmail-clone-66b6bnnnf-mrmorpho1s-projects.vercel.app\n\nIf approved, they'll see deployments served at this URL until access is revoked.\n\nManage request",
+    "time": "12:05 PM",
+    "unread": true,
+    "starred": false,
+    "selected": false,
+    "hasCalendar": false,
+    "hasUnsubscribe": false,
+    "category": "updates",
+    "folder": "inbox",
+    "attachments": []
+  },
+  {
+    "id": "5",
     "sender": "GTBIT Training & Placement",
     "senderEmail": "gtbittrainingplacement@example.com",
     "to": "me <user@example.com>",
@@ -57,7 +106,7 @@ export const INITIAL_EMAILS = [
     ]
   },
   {
-    "id": "4",
+    "id": "6",
     "sender": "HDFC Bank",
     "senderEmail": "hdfcbank@example.com",
     "to": "me <user@example.com>",
@@ -82,7 +131,7 @@ export const INITIAL_EMAILS = [
     ]
   },
   {
-    "id": "5",
+    "id": "7",
     "sender": "Vercel",
     "senderEmail": "vercel@example.com",
     "to": "me <user@example.com>",
@@ -100,7 +149,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "6",
+    "id": "8",
     "sender": "GitHub",
     "senderEmail": "github@example.com",
     "to": "me <user@example.com>",
@@ -118,7 +167,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "7",
+    "id": "9",
     "sender": "Zoom",
     "subject": "Webinar information has been updated - FREE 20-HOUR GENAI ENGINEERING BOOTCAMP",
     "snippet": "- - Hi Puri Ansh, The webinar information has been updated with the latest session links and schedule.",
@@ -132,7 +181,7 @@ export const INITIAL_EMAILS = [
     "body": "Hi Puri Ansh,\n\nThe host has updated the webinar information for FREE 20-HOUR GENAI ENGINEERING BOOTCAMP.\n\nDate: Saturday, Oct 21, 2026\nTime: 10:00 AM IST\nTopic: Building LLM Applications with LangChain & RAG\n\nPlease use the link below to join when the session begins."
   },
   {
-    "id": "8",
+    "id": "10",
     "sender": "Zoom",
     "subject": "FREE 20-HOUR GENAI ENGINEERING BOOTCAMP - - Confirmation",
     "snippet": "- Hi Puri Ansh, Thank you for registering for FREE 20-HOUR GENAI ENGINEERING BOOTCAMP.",
@@ -146,7 +195,7 @@ export const INITIAL_EMAILS = [
     "body": "Hi Puri Ansh,\n\nThank you for registering for FREE 20-HOUR GENAI ENGINEERING BOOTCAMP. We look forward to having you with us.\n\nAdd to calendar: Google Calendar | Outlook | iCal"
   },
   {
-    "id": "9",
+    "id": "11",
     "sender": "Zoom",
     "subject": "Your registration for webinar FREE 20-HOUR GENAI ENGINEERING BOOTCAMP - - has been denied",
     "snippet": "- Hi Puri, Your registration for session 2 has been updated.",
@@ -160,7 +209,7 @@ export const INITIAL_EMAILS = [
     "body": "Hi Puri,\n\nYour registration for the overflow batch was consolidated into Batch 1. You do not need to register again for Batch 2."
   },
   {
-    "id": "10",
+    "id": "12",
     "sender": "Zoom",
     "subject": "Reminder: FREE 20-HOUR GENAI ENGINEERING BOOTCAMP - - starts in 1 hour",
     "snippet": "- Hi Puri Ansh, This is a reminder that your webinar will begin shortly.",
@@ -172,34 +221,6 @@ export const INITIAL_EMAILS = [
     "hasUnsubscribe": false,
     "category": "primary",
     "body": "Hi Puri Ansh,\n\nThis is a quick reminder that FREE 20-HOUR GENAI ENGINEERING BOOTCAMP starts in 1 hour.\n\nPlease check your audio and video setup in advance."
-  },
-  {
-    "id": "11",
-    "sender": "Zoom",
-    "subject": "Webinar information has been updated - FREE 20-HOUR GENAI ENGINEERING BOOTCAMP",
-    "snippet": "- - Hi Puri Ansh, The webinar slides and workshop repo are now available.",
-    "time": "Oct 18",
-    "unread": false,
-    "starred": false,
-    "selected": false,
-    "hasCalendar": false,
-    "hasUnsubscribe": false,
-    "category": "primary",
-    "body": "Hi Puri Ansh,\n\nThe instructor has shared the prerequisite GitHub repositories and starter notebooks for the bootcamp."
-  },
-  {
-    "id": "12",
-    "sender": "Zoom",
-    "subject": "Webinar information has been updated - FREE 20-HOUR GENAI ENGINEERING BOOTCAMP",
-    "snippet": "- Hi Puri Ansh, The webinar information has been updated with instructor bio and Q&A guidelines.",
-    "time": "Oct 18",
-    "unread": true,
-    "starred": false,
-    "selected": false,
-    "hasCalendar": true,
-    "hasUnsubscribe": false,
-    "category": "primary",
-    "body": "Hi Puri Ansh,\n\nPlease review the community guidelines and Discord server link for ongoing Q&A during the bootcamp."
   },
   {
     "id": "13",
@@ -259,20 +280,6 @@ export const INITIAL_EMAILS = [
   },
   {
     "id": "17",
-    "sender": "ISP Team from Inter.",
-    "subject": "Update: Your application has been accepted",
-    "snippet": "- Hurry up—Applications close tomorrow. Don't miss out on securing your spot.",
-    "time": "Oct 18",
-    "unread": true,
-    "starred": false,
-    "selected": false,
-    "hasCalendar": false,
-    "hasUnsubscribe": true,
-    "category": "primary",
-    "body": "Dear Applicant,\n\nThis is a friendly reminder that ISP onboarding orientation starts tomorrow at 5 PM.\n\nIf you no longer wish to receive these alerts, you can unsubscribe below."
-  },
-  {
-    "id": "18",
     "sender": "Internshala",
     "subject": "Update: You have 3 new matching internship recommendations",
     "snippet": "- React Developer, Full Stack Engineer Intern, and AI Research Fellow",
@@ -286,7 +293,7 @@ export const INITIAL_EMAILS = [
     "body": "Here are fresh opportunities that match your profile preferences."
   },
   {
-    "id": "19",
+    "id": "18",
     "sender": "Swiggy",
     "senderEmail": "swiggy@example.com",
     "to": "me <user@example.com>",
@@ -304,7 +311,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "20",
+    "id": "19",
     "sender": "Amazon.in",
     "senderEmail": "amazonin@example.com",
     "to": "me <user@example.com>",
@@ -322,7 +329,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "21",
+    "id": "20",
     "sender": "Zoom",
     "subject": "Your registration for webinar FREE 20-HOUR GENAI ENGINEERING BOOTCAMP - has been denied",
     "snippet": "- Hi Puri, Your registration for previous duplicate slot has been canceled.",
@@ -336,7 +343,7 @@ export const INITIAL_EMAILS = [
     "body": "Hi Puri,\n\nThis is confirmation that the duplicate slot reservation was cleared."
   },
   {
-    "id": "22",
+    "id": "21",
     "sender": "Internshala",
     "subject": "Action needed: finish your profile to unlock 5,000+ top internships",
     "snippet": "- Complete your skill assessment tests and get certified today.",
@@ -350,7 +357,7 @@ export const INITIAL_EMAILS = [
     "body": "Companies are actively hiring for winter internships. Complete your profile today!"
   },
   {
-    "id": "23",
+    "id": "22",
     "sender": "LinkedIn",
     "subject": "You have 1 new invitation from John Doe (Staff Engineer at Google)",
     "snippet": "- \"Hey Ansh, I noticed your work on modern web technologies...\"",
@@ -364,7 +371,7 @@ export const INITIAL_EMAILS = [
     "body": "John Doe would like to connect with you on LinkedIn.\n\n\"Hey Ansh, I noticed your work on modern web technologies and would love to stay in touch!\""
   },
   {
-    "id": "24",
+    "id": "23",
     "sender": "Docker Hub",
     "senderEmail": "dockerhub@example.com",
     "to": "me <user@example.com>",
@@ -382,7 +389,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "25",
+    "id": "24",
     "sender": "LeetCode",
     "senderEmail": "leetcode@example.com",
     "to": "me <user@example.com>",
@@ -400,7 +407,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "26",
+    "id": "25",
     "sender": "Coursera",
     "subject": "Special offer: 50% off Google Professional Certificates",
     "snippet": "- Advance your career with in-demand skills in AI, Data, and Cybersecurity.",
@@ -414,7 +421,7 @@ export const INITIAL_EMAILS = [
     "body": "Learn at your own pace from industry leaders at Google, IBM, and Meta."
   },
   {
-    "id": "27",
+    "id": "26",
     "sender": "Google Careers",
     "senderEmail": "googlecareers@example.com",
     "to": "me <user@example.com>",
@@ -432,7 +439,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "28",
+    "id": "27",
     "sender": "Flipkart",
     "senderEmail": "flipkart@example.com",
     "to": "me <user@example.com>",
@@ -450,7 +457,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "29",
+    "id": "28",
     "sender": "Sentry",
     "senderEmail": "sentry@example.com",
     "to": "me <user@example.com>",
@@ -468,7 +475,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "30",
+    "id": "29",
     "sender": "GitHub",
     "senderEmail": "github@example.com",
     "to": "me <user@example.com>",
@@ -486,7 +493,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "31",
+    "id": "30",
     "sender": "LinkedIn Job Alerts",
     "senderEmail": "linkedinjobalerts@example.com",
     "to": "me <user@example.com>",
@@ -504,7 +511,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "32",
+    "id": "31",
     "sender": "GTBIT Dean Academics",
     "senderEmail": "gtbitdeanacademics@example.com",
     "to": "me <user@example.com>",
@@ -529,7 +536,7 @@ export const INITIAL_EMAILS = [
     ]
   },
   {
-    "id": "33",
+    "id": "32",
     "sender": "Microsoft Learn",
     "senderEmail": "microsoftlearn@example.com",
     "to": "me <user@example.com>",
@@ -547,7 +554,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "34",
+    "id": "33",
     "sender": "Cloudflare",
     "senderEmail": "cloudflare@example.com",
     "to": "me <user@example.com>",
@@ -565,7 +572,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "35",
+    "id": "34",
     "sender": "Apple Store",
     "senderEmail": "applestore@example.com",
     "to": "me <user@example.com>",
@@ -590,7 +597,7 @@ export const INITIAL_EMAILS = [
     ]
   },
   {
-    "id": "36",
+    "id": "35",
     "sender": "Placement Cell GTBIT",
     "senderEmail": "placementcellgtbit@example.com",
     "to": "me <user@example.com>",
@@ -608,7 +615,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "37",
+    "id": "36",
     "sender": "Notion",
     "senderEmail": "notion@example.com",
     "to": "me <user@example.com>",
@@ -626,7 +633,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "38",
+    "id": "37",
     "sender": "Zomato Gold",
     "senderEmail": "zomatogold@example.com",
     "to": "me <user@example.com>",
@@ -644,7 +651,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "39",
+    "id": "38",
     "sender": "Prof. R.K. Sharma",
     "senderEmail": "profrksharma@example.com",
     "to": "me <user@example.com>",
@@ -662,7 +669,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "40",
+    "id": "39",
     "sender": "Swiggy",
     "senderEmail": "swiggy@example.com",
     "to": "me <user@example.com>",
@@ -680,7 +687,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "41",
+    "id": "40",
     "sender": "Reddit",
     "senderEmail": "reddit@example.com",
     "to": "me <user@example.com>",
@@ -698,7 +705,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "42",
+    "id": "41",
     "sender": "Postman",
     "senderEmail": "postman@example.com",
     "to": "me <user@example.com>",
@@ -716,7 +723,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "43",
+    "id": "42",
     "sender": "LinkedIn",
     "senderEmail": "linkedin@example.com",
     "to": "me <user@example.com>",
@@ -734,7 +741,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "44",
+    "id": "43",
     "sender": "Medium Daily Digest",
     "senderEmail": "mediumdailydigest@example.com",
     "to": "me <user@example.com>",
@@ -752,7 +759,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "45",
+    "id": "44",
     "sender": "MakeMyTrip",
     "senderEmail": "makemytrip@example.com",
     "to": "me <user@example.com>",
@@ -777,7 +784,7 @@ export const INITIAL_EMAILS = [
     ]
   },
   {
-    "id": "46",
+    "id": "45",
     "sender": "Google Cloud Platform",
     "senderEmail": "googlecloudplatform@example.com",
     "to": "me <user@example.com>",
@@ -795,7 +802,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "47",
+    "id": "46",
     "sender": "Atlassian Jira",
     "senderEmail": "atlassianjira@example.com",
     "to": "me <user@example.com>",
@@ -813,7 +820,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "48",
+    "id": "47",
     "sender": "Udemy",
     "senderEmail": "udemy@example.com",
     "to": "me <user@example.com>",
@@ -831,7 +838,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "49",
+    "id": "48",
     "sender": "Vercel",
     "senderEmail": "vercel@example.com",
     "to": "me <user@example.com>",
@@ -849,7 +856,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "50",
+    "id": "49",
     "sender": "GeeksforGeeks",
     "senderEmail": "geeksforgeeks@example.com",
     "to": "me <user@example.com>",
@@ -867,7 +874,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "51",
+    "id": "50",
     "sender": "Blinkit",
     "senderEmail": "blinkit@example.com",
     "to": "me <user@example.com>",
@@ -885,7 +892,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "52",
+    "id": "51",
     "sender": "LeetCode",
     "senderEmail": "leetcode@example.com",
     "to": "me <user@example.com>",
@@ -903,7 +910,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "53",
+    "id": "52",
     "sender": "State Bank of India",
     "senderEmail": "statebankofindia@example.com",
     "to": "me <user@example.com>",
@@ -921,7 +928,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "54",
+    "id": "53",
     "sender": "Linear",
     "senderEmail": "linear@example.com",
     "to": "me <user@example.com>",
@@ -939,7 +946,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "55",
+    "id": "54",
     "sender": "Amazon.in",
     "senderEmail": "amazonin@example.com",
     "to": "me <user@example.com>",
@@ -957,7 +964,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "56",
+    "id": "55",
     "sender": "Spotify",
     "senderEmail": "spotify@example.com",
     "to": "me <user@example.com>",
@@ -975,7 +982,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "57",
+    "id": "56",
     "sender": "Datadog",
     "senderEmail": "datadog@example.com",
     "to": "me <user@example.com>",
@@ -993,7 +1000,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "58",
+    "id": "57",
     "sender": "Stripe",
     "senderEmail": "stripe@example.com",
     "to": "me <user@example.com>",
@@ -1011,7 +1018,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "59",
+    "id": "58",
     "sender": "GTBIT Examination Cell",
     "senderEmail": "gtbitexaminationcell@example.com",
     "to": "me <user@example.com>",
@@ -1029,7 +1036,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "60",
+    "id": "59",
     "sender": "Tailwind Labs",
     "senderEmail": "tailwindlabs@example.com",
     "to": "me <user@example.com>",
@@ -1047,7 +1054,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "61",
+    "id": "60",
     "sender": "Discord",
     "senderEmail": "discord@example.com",
     "to": "me <user@example.com>",
@@ -1065,7 +1072,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "62",
+    "id": "61",
     "sender": "Discord",
     "senderEmail": "discord@example.com",
     "to": "me <user@example.com>",
@@ -1083,7 +1090,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "63",
+    "id": "62",
     "sender": "CRED",
     "senderEmail": "cred@example.com",
     "to": "me <user@example.com>",
@@ -1101,7 +1108,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "64",
+    "id": "63",
     "sender": "Smart India Hackathon",
     "senderEmail": "smartindiahackathon@example.com",
     "to": "me <user@example.com>",
@@ -1119,7 +1126,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "65",
+    "id": "64",
     "sender": "Uber",
     "senderEmail": "uber@example.com",
     "to": "me <user@example.com>",
@@ -1137,7 +1144,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "66",
+    "id": "65",
     "sender": "HackerRank",
     "senderEmail": "hackerrank@example.com",
     "to": "me <user@example.com>",
@@ -1162,7 +1169,7 @@ export const INITIAL_EMAILS = [
     ]
   },
   {
-    "id": "67",
+    "id": "66",
     "sender": "Udemy",
     "senderEmail": "udemy@example.com",
     "to": "me <user@example.com>",
@@ -1180,7 +1187,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "68",
+    "id": "67",
     "sender": "Next.js Team",
     "senderEmail": "nextjsteam@example.com",
     "to": "me <user@example.com>",
@@ -1198,7 +1205,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "69",
+    "id": "68",
     "sender": "Netflix",
     "senderEmail": "netflix@example.com",
     "to": "me <user@example.com>",
@@ -1216,7 +1223,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "70",
+    "id": "69",
     "sender": "GitHub Actions",
     "senderEmail": "githubactions@example.com",
     "to": "me <user@example.com>",
@@ -1234,7 +1241,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "71",
+    "id": "70",
     "sender": "Razorpay",
     "senderEmail": "razorpay@example.com",
     "to": "me <user@example.com>",
@@ -1259,7 +1266,7 @@ export const INITIAL_EMAILS = [
     ]
   },
   {
-    "id": "72",
+    "id": "71",
     "sender": "IEEE Computer Society",
     "senderEmail": "ieeecomputersociety@example.com",
     "to": "me <user@example.com>",
@@ -1277,7 +1284,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "73",
+    "id": "72",
     "sender": "Reddit",
     "senderEmail": "reddit@example.com",
     "to": "me <user@example.com>",
@@ -1295,7 +1302,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "74",
+    "id": "73",
     "sender": "Prisma",
     "senderEmail": "prisma@example.com",
     "to": "me <user@example.com>",
@@ -1313,7 +1320,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "75",
+    "id": "74",
     "sender": "OpenAI Developer Forum",
     "senderEmail": "openaideveloperforum@example.com",
     "to": "me <user@example.com>",
@@ -1331,7 +1338,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "76",
+    "id": "75",
     "sender": "GTBIT Sports Committee",
     "senderEmail": "gtbitsportscommittee@example.com",
     "to": "me <user@example.com>",
@@ -1349,7 +1356,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "77",
+    "id": "76",
     "sender": "Amazon Web Services",
     "senderEmail": "amazonwebservices@example.com",
     "to": "me <user@example.com>",
@@ -1367,7 +1374,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "78",
+    "id": "77",
     "sender": "Flipkart",
     "senderEmail": "flipkart@example.com",
     "to": "me <user@example.com>",
@@ -1385,7 +1392,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "79",
+    "id": "78",
     "sender": "Coursera",
     "senderEmail": "coursera@example.com",
     "to": "me <user@example.com>",
@@ -1410,7 +1417,7 @@ export const INITIAL_EMAILS = [
     ]
   },
   {
-    "id": "80",
+    "id": "79",
     "sender": "PayPal",
     "senderEmail": "paypal@example.com",
     "to": "me <user@example.com>",
@@ -1428,7 +1435,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "81",
+    "id": "80",
     "sender": "Paytm",
     "senderEmail": "paytm@example.com",
     "to": "me <user@example.com>",
@@ -1446,7 +1453,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "82",
+    "id": "81",
     "sender": "Kaggle",
     "senderEmail": "kaggle@example.com",
     "to": "me <user@example.com>",
@@ -1464,7 +1471,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "83",
+    "id": "82",
     "sender": "Hugging Face",
     "senderEmail": "huggingface@example.com",
     "to": "me <user@example.com>",
@@ -1482,7 +1489,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "84",
+    "id": "83",
     "sender": "Swiggy Instamart",
     "senderEmail": "swiggyinstamart@example.com",
     "to": "me <user@example.com>",
@@ -1500,7 +1507,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "85",
+    "id": "84",
     "sender": "HashiCorp",
     "senderEmail": "hashicorp@example.com",
     "to": "me <user@example.com>",
@@ -1518,7 +1525,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "86",
+    "id": "85",
     "sender": "YouTube",
     "senderEmail": "youtube@example.com",
     "to": "me <user@example.com>",
@@ -1536,7 +1543,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "87",
+    "id": "86",
     "sender": "GTBIT Library",
     "senderEmail": "gtbitlibrary@example.com",
     "to": "me <user@example.com>",
@@ -1554,7 +1561,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "88",
+    "id": "87",
     "sender": "Zepto",
     "senderEmail": "zepto@example.com",
     "to": "me <user@example.com>",
@@ -1572,7 +1579,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "89",
+    "id": "88",
     "sender": "Zomato",
     "senderEmail": "zomato@example.com",
     "to": "me <user@example.com>",
@@ -1590,7 +1597,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "90",
+    "id": "89",
     "sender": "GitHub Security",
     "senderEmail": "githubsecurity@example.com",
     "to": "me <user@example.com>",
@@ -1608,7 +1615,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "91",
+    "id": "90",
     "sender": "ICICI Bank",
     "senderEmail": "icicibank@example.com",
     "to": "me <user@example.com>",
@@ -1633,7 +1640,7 @@ export const INITIAL_EMAILS = [
     ]
   },
   {
-    "id": "92",
+    "id": "91",
     "sender": "AWS Billing",
     "senderEmail": "awsbilling@example.com",
     "to": "me <user@example.com>",
@@ -1651,7 +1658,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "93",
+    "id": "92",
     "sender": "Zomato",
     "senderEmail": "zomato@example.com",
     "to": "me <user@example.com>",
@@ -1669,7 +1676,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "94",
+    "id": "93",
     "sender": "Google Developer Student Clubs",
     "senderEmail": "googledeveloperstudentclubs@example.com",
     "to": "me <user@example.com>",
@@ -1687,7 +1694,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "95",
+    "id": "94",
     "sender": "Anthropic",
     "senderEmail": "anthropic@example.com",
     "to": "me <user@example.com>",
@@ -1705,7 +1712,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "96",
+    "id": "95",
     "sender": "Stripe",
     "senderEmail": "stripe@example.com",
     "to": "me <user@example.com>",
@@ -1723,7 +1730,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "97",
+    "id": "96",
     "sender": "X (formerly Twitter)",
     "senderEmail": "xformerlytwitter@example.com",
     "to": "me <user@example.com>",
@@ -1741,7 +1748,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "98",
+    "id": "97",
     "sender": "Medium Daily Digest",
     "senderEmail": "mediumdailydigest@example.com",
     "to": "me <user@example.com>",
@@ -1759,7 +1766,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "99",
+    "id": "98",
     "sender": "BookMyShow",
     "senderEmail": "bookmyshow@example.com",
     "to": "me <user@example.com>",
@@ -1777,7 +1784,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "100",
+    "id": "99",
     "sender": "GTBIT Department of ECE",
     "senderEmail": "gtbitdepartmentofece@example.com",
     "to": "me <user@example.com>",
@@ -1795,7 +1802,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "101",
+    "id": "100",
     "sender": "Spotify",
     "senderEmail": "spotify@example.com",
     "to": "me <user@example.com>",
@@ -1813,7 +1820,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "102",
+    "id": "101",
     "sender": "DigitalOcean",
     "senderEmail": "digitalocean@example.com",
     "to": "me <user@example.com>",
@@ -1838,7 +1845,7 @@ export const INITIAL_EMAILS = [
     ]
   },
   {
-    "id": "103",
+    "id": "102",
     "sender": "LeetCode",
     "senderEmail": "leetcode@example.com",
     "to": "me <user@example.com>",
@@ -1856,7 +1863,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "104",
+    "id": "103",
     "sender": "Razorpay",
     "senderEmail": "razorpay@example.com",
     "to": "me <user@example.com>",
@@ -1874,7 +1881,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "105",
+    "id": "104",
     "sender": "Dominos Pizza",
     "senderEmail": "dominospizza@example.com",
     "to": "me <user@example.com>",
@@ -1892,7 +1899,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "106",
+    "id": "105",
     "sender": "Figma",
     "senderEmail": "figma@example.com",
     "to": "me <user@example.com>",
@@ -1910,7 +1917,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "107",
+    "id": "106",
     "sender": "Overleaf",
     "senderEmail": "overleaf@example.com",
     "to": "me <user@example.com>",
@@ -1928,7 +1935,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "108",
+    "id": "107",
     "sender": "Postmark",
     "senderEmail": "postmark@example.com",
     "to": "me <user@example.com>",
@@ -1946,7 +1953,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "109",
+    "id": "108",
     "sender": "LinkedIn",
     "senderEmail": "linkedin@example.com",
     "to": "me <user@example.com>",
@@ -1964,7 +1971,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "110",
+    "id": "109",
     "sender": "Dev.to",
     "senderEmail": "devto@example.com",
     "to": "me <user@example.com>",
@@ -1982,7 +1989,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "111",
+    "id": "110",
     "sender": "Decathlon India",
     "senderEmail": "decathlonindia@example.com",
     "to": "me <user@example.com>",
@@ -2000,7 +2007,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "112",
+    "id": "111",
     "sender": "GTBIT Placement Cell",
     "senderEmail": "gtbitplacementcell@example.com",
     "to": "me <user@example.com>",
@@ -2025,7 +2032,7 @@ export const INITIAL_EMAILS = [
     ]
   },
   {
-    "id": "113",
+    "id": "112",
     "sender": "Domino's Pizza",
     "senderEmail": "dominospizza@example.com",
     "to": "me <user@example.com>",
@@ -2043,7 +2050,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "114",
+    "id": "113",
     "sender": "IRCTC",
     "senderEmail": "irctc@example.com",
     "to": "me <user@example.com>",
@@ -2068,7 +2075,7 @@ export const INITIAL_EMAILS = [
     ]
   },
   {
-    "id": "115",
+    "id": "114",
     "sender": "Blinkit",
     "senderEmail": "blinkit@example.com",
     "to": "me <user@example.com>",
@@ -2086,7 +2093,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "116",
+    "id": "115",
     "sender": "Apple",
     "senderEmail": "apple@example.com",
     "to": "me <user@example.com>",
@@ -2104,7 +2111,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "117",
+    "id": "116",
     "sender": "Uber",
     "senderEmail": "uber@example.com",
     "to": "me <user@example.com>",
@@ -2122,7 +2129,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "118",
+    "id": "117",
     "sender": "Apple",
     "senderEmail": "apple@example.com",
     "to": "me <user@example.com>",
@@ -2140,7 +2147,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "119",
+    "id": "118",
     "sender": "Google Developer Groups",
     "senderEmail": "googledevelopergroups@example.com",
     "to": "me <user@example.com>",
@@ -2158,7 +2165,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "120",
+    "id": "119",
     "sender": "Google Developer Groups",
     "senderEmail": "googledevelopergroups@example.com",
     "to": "me <user@example.com>",
@@ -2176,7 +2183,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "121",
+    "id": "120",
     "sender": "Product Hunt",
     "senderEmail": "producthunt@example.com",
     "to": "me <user@example.com>",
@@ -2194,7 +2201,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "122",
+    "id": "121",
     "sender": "Nike",
     "senderEmail": "nike@example.com",
     "to": "me <user@example.com>",
@@ -2212,7 +2219,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "123",
+    "id": "122",
     "sender": "Notion",
     "senderEmail": "notion@example.com",
     "to": "me <user@example.com>",
@@ -2230,7 +2237,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "124",
+    "id": "123",
     "sender": "Supabase",
     "senderEmail": "supabase@example.com",
     "to": "me <user@example.com>",
@@ -2248,7 +2255,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "125",
+    "id": "124",
     "sender": "Stack Overflow",
     "senderEmail": "stackoverflow@example.com",
     "to": "me <user@example.com>",
@@ -2266,7 +2273,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "126",
+    "id": "125",
     "sender": "Myntra",
     "senderEmail": "myntra@example.com",
     "to": "me <user@example.com>",
@@ -2284,7 +2291,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "127",
+    "id": "126",
     "sender": "Slack",
     "senderEmail": "slack@example.com",
     "to": "me <user@example.com>",
@@ -2302,7 +2309,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "128",
+    "id": "127",
     "sender": "HackerRank",
     "senderEmail": "hackerrank@example.com",
     "to": "me <user@example.com>",
@@ -2320,7 +2327,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "129",
+    "id": "128",
     "sender": "Dean of Academic Affairs",
     "senderEmail": "deanofacademicaffairs@example.com",
     "to": "me <user@example.com>",
@@ -2338,7 +2345,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "130",
+    "id": "129",
     "sender": "GTBIT Academic Registrar",
     "senderEmail": "gtbitacademicregistrar@example.com",
     "to": "me <user@example.com>",
@@ -2363,7 +2370,7 @@ export const INITIAL_EMAILS = [
     ]
   },
   {
-    "id": "131",
+    "id": "130",
     "sender": "Smart India Hackathon",
     "senderEmail": "smartindiahackathon@example.com",
     "to": "me <user@example.com>",
@@ -2381,7 +2388,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "132",
+    "id": "131",
     "sender": "The Pragmatic Engineer",
     "senderEmail": "thepragmaticengineer@example.com",
     "to": "me <user@example.com>",
@@ -2399,7 +2406,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "133",
+    "id": "132",
     "sender": "Groww",
     "senderEmail": "groww@example.com",
     "to": "me <user@example.com>",
@@ -2417,7 +2424,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "134",
+    "id": "133",
     "sender": "Amazon.in",
     "senderEmail": "amazonin@example.com",
     "to": "me <user@example.com>",
@@ -2435,7 +2442,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "135",
+    "id": "134",
     "sender": "boAt Lifestyle",
     "senderEmail": "boatlifestyle@example.com",
     "to": "me <user@example.com>",
@@ -2453,7 +2460,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "136",
+    "id": "135",
     "sender": "Swiggy",
     "senderEmail": "swiggy@example.com",
     "to": "me <user@example.com>",
@@ -2471,7 +2478,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "137",
+    "id": "136",
     "sender": "Netlify",
     "senderEmail": "netlify@example.com",
     "to": "me <user@example.com>",
@@ -2489,7 +2496,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "138",
+    "id": "137",
     "sender": "Postman",
     "senderEmail": "postman@example.com",
     "to": "me <user@example.com>",
@@ -2507,7 +2514,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "139",
+    "id": "138",
     "sender": "GitHub",
     "senderEmail": "github@example.com",
     "to": "me <user@example.com>",
@@ -2525,7 +2532,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "140",
+    "id": "139",
     "sender": "Cloudflare",
     "senderEmail": "cloudflare@example.com",
     "to": "me <user@example.com>",
@@ -2543,7 +2550,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "141",
+    "id": "140",
     "sender": "Zerodha",
     "senderEmail": "zerodha@example.com",
     "to": "me <user@example.com>",
@@ -2561,7 +2568,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "142",
+    "id": "141",
     "sender": "Zomato",
     "senderEmail": "zomato@example.com",
     "to": "me <user@example.com>",
@@ -2579,7 +2586,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "143",
+    "id": "142",
     "sender": "freeCodeCamp.org",
     "senderEmail": "freecodecamporg@example.com",
     "to": "me <user@example.com>",
@@ -2597,7 +2604,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "144",
+    "id": "143",
     "sender": "Microsoft Learn",
     "senderEmail": "microsoftlearn@example.com",
     "to": "me <user@example.com>",
@@ -2615,7 +2622,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "145",
+    "id": "144",
     "sender": "Uber",
     "senderEmail": "uber@example.com",
     "to": "me <user@example.com>",
@@ -2633,7 +2640,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "146",
+    "id": "145",
     "sender": "Blinkit",
     "senderEmail": "blinkit@example.com",
     "to": "me <user@example.com>",
@@ -2651,7 +2658,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "147",
+    "id": "146",
     "sender": "Docker Hub",
     "senderEmail": "dockerhub@example.com",
     "to": "me <user@example.com>",
@@ -2669,7 +2676,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "148",
+    "id": "147",
     "sender": "Uber",
     "senderEmail": "uber@example.com",
     "to": "me <user@example.com>",
@@ -2687,7 +2694,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "149",
+    "id": "148",
     "sender": "Atlassian Jira",
     "senderEmail": "atlassianjira@example.com",
     "to": "me <user@example.com>",
@@ -2705,7 +2712,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "150",
+    "id": "149",
     "sender": "GTBIT Cultural Committee",
     "senderEmail": "gtbitculturalcommittee@example.com",
     "to": "me <user@example.com>",
@@ -2723,7 +2730,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "151",
+    "id": "150",
     "sender": "LinkedIn",
     "senderEmail": "linkedin@example.com",
     "to": "me <user@example.com>",
@@ -2741,7 +2748,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "152",
+    "id": "151",
     "sender": "Coursera",
     "senderEmail": "coursera@example.com",
     "to": "me <user@example.com>",
@@ -2766,7 +2773,7 @@ export const INITIAL_EMAILS = [
     ]
   },
   {
-    "id": "153",
+    "id": "152",
     "sender": "Grammarly",
     "senderEmail": "grammarly@example.com",
     "to": "me <user@example.com>",
@@ -2784,7 +2791,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "154",
+    "id": "153",
     "sender": "Decathlon",
     "senderEmail": "decathlon@example.com",
     "to": "me <user@example.com>",
@@ -2802,7 +2809,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "155",
+    "id": "154",
     "sender": "Vercel",
     "senderEmail": "vercel@example.com",
     "to": "me <user@example.com>",
@@ -2820,7 +2827,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "156",
+    "id": "155",
     "sender": "HDFC Bank",
     "senderEmail": "hdfcbank@example.com",
     "to": "me <user@example.com>",
@@ -2838,7 +2845,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "157",
+    "id": "156",
     "sender": "Spotify",
     "senderEmail": "spotify@example.com",
     "to": "me <user@example.com>",
@@ -2856,7 +2863,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "158",
+    "id": "157",
     "sender": "CodeChef",
     "senderEmail": "codechef@example.com",
     "to": "me <user@example.com>",
@@ -2874,7 +2881,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "159",
+    "id": "158",
     "sender": "HackerRank",
     "senderEmail": "hackerrank@example.com",
     "to": "me <user@example.com>",
@@ -2892,7 +2899,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "160",
+    "id": "159",
     "sender": "Discord",
     "senderEmail": "discord@example.com",
     "to": "me <user@example.com>",
@@ -2910,7 +2917,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "161",
+    "id": "160",
     "sender": "Swiggy",
     "senderEmail": "swiggy@example.com",
     "to": "me <user@example.com>",
@@ -2928,7 +2935,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "162",
+    "id": "161",
     "sender": "Blinkit",
     "senderEmail": "blinkit@example.com",
     "to": "me <user@example.com>",
@@ -2946,7 +2953,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "163",
+    "id": "162",
     "sender": "GTBIT Department of CSE",
     "senderEmail": "gtbitdepartmentofcse@example.com",
     "to": "me <user@example.com>",
@@ -2964,7 +2971,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "164",
+    "id": "163",
     "sender": "Google Account",
     "senderEmail": "googleaccount@example.com",
     "to": "me <user@example.com>",
@@ -2982,7 +2989,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "165",
+    "id": "164",
     "sender": "DigitalOcean",
     "senderEmail": "digitalocean@example.com",
     "to": "me <user@example.com>",
@@ -3007,7 +3014,7 @@ export const INITIAL_EMAILS = [
     ]
   },
   {
-    "id": "166",
+    "id": "165",
     "sender": "MongoDB Atlas",
     "senderEmail": "mongodbatlas@example.com",
     "to": "me <user@example.com>",
@@ -3025,7 +3032,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "167",
+    "id": "166",
     "sender": "DigitalOcean",
     "senderEmail": "digitalocean@example.com",
     "to": "me <user@example.com>",
@@ -3043,7 +3050,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "168",
+    "id": "167",
     "sender": "Threads",
     "senderEmail": "threads@example.com",
     "to": "me <user@example.com>",
@@ -3061,7 +3068,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "169",
+    "id": "168",
     "sender": "LeetCode",
     "senderEmail": "leetcode@example.com",
     "to": "me <user@example.com>",
@@ -3079,7 +3086,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "170",
+    "id": "169",
     "sender": "MakeMyTrip",
     "senderEmail": "makemytrip@example.com",
     "to": "me <user@example.com>",
@@ -3097,7 +3104,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "171",
+    "id": "170",
     "sender": "Figma Community",
     "senderEmail": "figmacommunity@example.com",
     "to": "me <user@example.com>",
@@ -3115,7 +3122,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "172",
+    "id": "171",
     "sender": "Cloudflare Zero Trust",
     "senderEmail": "cloudflarezerotrust@example.com",
     "to": "me <user@example.com>",
@@ -3133,7 +3140,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "173",
+    "id": "172",
     "sender": "Zomato",
     "senderEmail": "zomato@example.com",
     "to": "me <user@example.com>",
@@ -3151,7 +3158,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "174",
+    "id": "173",
     "sender": "Docker",
     "senderEmail": "docker@example.com",
     "to": "me <user@example.com>",
@@ -3169,7 +3176,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "175",
+    "id": "174",
     "sender": "LeetCode",
     "senderEmail": "leetcode@example.com",
     "to": "me <user@example.com>",
@@ -3187,7 +3194,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "176",
+    "id": "175",
     "sender": "Twitter / X",
     "senderEmail": "twitterx@example.com",
     "to": "me <user@example.com>",
@@ -3205,7 +3212,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "177",
+    "id": "176",
     "sender": "Amazon.in",
     "senderEmail": "amazonin@example.com",
     "to": "me <user@example.com>",
@@ -3223,7 +3230,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "178",
+    "id": "177",
     "sender": "Cult.fit",
     "senderEmail": "cultfit@example.com",
     "to": "me <user@example.com>",
@@ -3241,7 +3248,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "179",
+    "id": "178",
     "sender": "Spotify for Artists",
     "senderEmail": "spotifyforartists@example.com",
     "to": "me <user@example.com>",
@@ -3259,7 +3266,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "180",
+    "id": "179",
     "sender": "Postman",
     "senderEmail": "postman@example.com",
     "to": "me <user@example.com>",
@@ -3277,7 +3284,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "181",
+    "id": "180",
     "sender": "GTBIT Examination Cell",
     "senderEmail": "gtbitexaminationcell@example.com",
     "to": "me <user@example.com>",
@@ -3302,7 +3309,7 @@ export const INITIAL_EMAILS = [
     ]
   },
   {
-    "id": "182",
+    "id": "181",
     "sender": "Blinkit",
     "senderEmail": "blinkit@example.com",
     "to": "me <user@example.com>",
@@ -3320,7 +3327,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "183",
+    "id": "182",
     "sender": "GitHub",
     "senderEmail": "github@example.com",
     "to": "me <user@example.com>",
@@ -3338,7 +3345,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "184",
+    "id": "183",
     "sender": "Zomato Gold",
     "senderEmail": "zomatogold@example.com",
     "to": "me <user@example.com>",
@@ -3356,7 +3363,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "185",
+    "id": "184",
     "sender": "Adobe Creative Cloud",
     "senderEmail": "adobecreativecloud@example.com",
     "to": "me <user@example.com>",
@@ -3374,7 +3381,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "186",
+    "id": "185",
     "sender": "State Bank of India",
     "senderEmail": "statebankofindia@example.com",
     "to": "me <user@example.com>",
@@ -3392,7 +3399,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "187",
+    "id": "186",
     "sender": "MongoDB Atlas",
     "senderEmail": "mongodbatlas@example.com",
     "to": "me <user@example.com>",
@@ -3410,7 +3417,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "188",
+    "id": "187",
     "sender": "Kaggle",
     "senderEmail": "kaggle@example.com",
     "to": "me <user@example.com>",
@@ -3428,7 +3435,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "189",
+    "id": "188",
     "sender": "Uber",
     "senderEmail": "uber@example.com",
     "to": "me <user@example.com>",
@@ -3446,7 +3453,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "190",
+    "id": "189",
     "sender": "Kaggle",
     "senderEmail": "kaggle@example.com",
     "to": "me <user@example.com>",
@@ -3464,7 +3471,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "191",
+    "id": "190",
     "sender": "BookMyShow",
     "senderEmail": "bookmyshow@example.com",
     "to": "me <user@example.com>",
@@ -3482,7 +3489,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "192",
+    "id": "191",
     "sender": "HackerRank",
     "senderEmail": "hackerrank@example.com",
     "to": "me <user@example.com>",
@@ -3500,7 +3507,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "193",
+    "id": "192",
     "sender": "Postmark",
     "senderEmail": "postmark@example.com",
     "to": "me <user@example.com>",
@@ -3518,7 +3525,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "194",
+    "id": "193",
     "sender": "MakeMyTrip",
     "senderEmail": "makemytrip@example.com",
     "to": "me <user@example.com>",
@@ -3536,7 +3543,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "195",
+    "id": "194",
     "sender": "Google Summer of Code",
     "senderEmail": "googlesummerofcode@example.com",
     "to": "me <user@example.com>",
@@ -3554,7 +3561,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "196",
+    "id": "195",
     "sender": "Decathlon",
     "senderEmail": "decathlon@example.com",
     "to": "me <user@example.com>",
@@ -3572,7 +3579,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "197",
+    "id": "196",
     "sender": "GTBIT CSE Department",
     "senderEmail": "gtbitcsedepartment@example.com",
     "to": "me <user@example.com>",
@@ -3590,7 +3597,7 @@ export const INITIAL_EMAILS = [
     "attachments": []
   },
   {
-    "id": "198",
+    "id": "197",
     "sender": "GTBIT Training & Placement",
     "senderEmail": "gtbittrainingplacement@example.com",
     "to": "me <user@example.com>",
@@ -3615,25 +3622,7 @@ export const INITIAL_EMAILS = [
     ]
   },
   {
-    "id": "199",
-    "sender": "Academic Registrar GTBIT",
-    "senderEmail": "academicregistrargtbit@example.com",
-    "to": "me <user@example.com>",
-    "subject": "Welcome to Academic Year 2026-27: Orientation & Semester Registration Schedule",
-    "snippet": "- Orientation for odd semester begins July 10 in main auditorium. Complete fee clearance by July 8.",
-    "body": "Dear Students,\n\nWelcome to the Academic Session 2026-27 at Guru Tegh Bahadur Institute of Technology.\n\nKey Dates:\n- Semester Registration Closes: July 8, 2026\n- Orientation Ceremony: July 10, 2026 at 10:00 AM in the Main Auditorium\n- Commencement of Regular Classes: July 15, 2026\n\nPlease ensure your hostel and bus registrations are completed through the college ERP portal.\n\nRegards,\nOffice of the Registrar\nGTBIT, New Delhi",
-    "time": "Jul 3",
-    "unread": true,
-    "starred": true,
-    "selected": false,
-    "hasCalendar": true,
-    "hasUnsubscribe": false,
-    "category": "primary",
-    "folder": "inbox",
-    "attachments": []
-  },
-  {
-    "id": "200",
+    "id": "198",
     "sender": "Academic Registrar GTBIT",
     "senderEmail": "academicregistrargtbit@example.com",
     "to": "me <user@example.com>",

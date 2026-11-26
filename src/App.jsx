@@ -22,10 +22,11 @@ export default function App() {
       localStorage.removeItem('gmail_emails_v3');
       localStorage.removeItem('gmail_emails_v4');
       localStorage.removeItem('gmail_emails_v5');
+      localStorage.removeItem('gmail_emails_v6');
     } catch (e) {}
 
     try {
-      const saved = localStorage.getItem('gmail_emails_v6');
+      const saved = localStorage.getItem('gmail_emails_v7');
       if (saved) {
         const parsed = JSON.parse(saved);
         if (Array.isArray(parsed) && parsed.length > 0) {
@@ -51,10 +52,10 @@ export default function App() {
 
   const emailListRef = useRef(null);
 
-  // Sync emails to localStorage (v6)
+  // Sync emails to localStorage (v7)
   useEffect(() => {
     try {
-      localStorage.setItem('gmail_emails_v6', JSON.stringify(emails));
+      localStorage.setItem('gmail_emails_v7', JSON.stringify(emails));
     } catch (e) {
       console.error('Error saving emails to localStorage:', e);
     }
@@ -281,6 +282,7 @@ export default function App() {
   // Reset emails back to original 200 mock emails
   const handleResetToDefaultEmails = () => {
     try {
+      localStorage.removeItem('gmail_emails_v7');
       localStorage.removeItem('gmail_emails_v6');
       localStorage.removeItem('gmail_emails_v5');
       localStorage.removeItem('gmail_emails');
@@ -391,6 +393,22 @@ export default function App() {
               onToggleStar={handleToggleStar}
               onDelete={handleDeleteEmail}
               onArchive={handleArchiveEmail}
+              currentIndex={Math.max(1, filteredEmails.findIndex(e => e.id === activeEmail.id) + 1)}
+              totalEmails={filteredEmails.length || 200}
+              onNext={() => {
+                const idx = filteredEmails.findIndex(e => e.id === activeEmail.id);
+                if (idx < filteredEmails.length - 1) {
+                  setActiveEmail(filteredEmails[idx + 1]);
+                }
+              }}
+              onPrev={() => {
+                const idx = filteredEmails.findIndex(e => e.id === activeEmail.id);
+                if (idx > 0) {
+                  setActiveEmail(filteredEmails[idx - 1]);
+                }
+              }}
+              onReply={() => setIsComposeOpen(true)}
+              onForward={() => setIsComposeOpen(true)}
             />
           ) : (
             /* Email List View */

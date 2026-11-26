@@ -7,6 +7,46 @@ console.log('Existing emails count:', existing100.length);
 
 // 100 new realistic emails distributed across Oct, Sep, Aug, Jul
 const new100Emails = [
+  // --- Screenshot 1: GTBIT PLACEMENTS Consultadd AI Test link ---
+  {
+    sender: 'GTBIT PLACEMENTS',
+    senderEmail: 'placement@gtbit.ac.in',
+    subject: 'Consultadd || AI Test link.',
+    snippet: '- Dear Students, PFA, the excel sheet with test link & slot details.',
+    time: '4:24 PM',
+    unread: true,
+    starred: true,
+    to: 'Deepanshu, SAURABH, Prabhmehar, igaman717, Harmeet, Hridyamann, TEGVEER, PUSHPENDER, Jagjeet, Gurdeep, navneett.kaur006, MUSKAN, Prem, Anju, Kunwarveer, eshpreet, JASLEEN, Jap, me',
+    category: 'primary',
+    attachments: [
+      {
+        id: 'att-consultadd-slots',
+        name: 'GTBITCybersecurity_Test_Slots.xlsx',
+        size: '142 KB',
+        type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+      },
+      {
+        id: 'att-consultadd-shortlist',
+        name: 'GTBITCYBERII_interview_shortlist.xlsx',
+        size: '186 KB',
+        type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+      }
+    ],
+    body: `Dear Students,\n\nPFA, the excel sheet with test link & slot details.\n\n\n--\nGuru Tegh Bahadur Institute of Technology\nTraining & Placement Cell\nFollow us: Website | LinkedIn | Instagram | YouTube\nContact us: +011 455-999-00 | Email | Gmail\nLocation: Google Maps`
+  },
+  // --- Screenshot 2: Vercel Access Request ---
+  {
+    sender: 'Vercel',
+    senderEmail: 'notifications@vercel.com',
+    subject: '[Access Request] gourav05bhardwaj-9052 requested access to gmail-clone-66b6bnnnf-mrmorpho1s-projects.vercel.app',
+    snippet: '- gourav05bhardwaj@gmail.com wants access to a URL in gmail-clone',
+    time: '12:05 PM',
+    unread: true,
+    starred: false,
+    to: 'me <user@example.com>',
+    category: 'updates',
+    body: `Access request\n\nHello, mrmorpho1.\n\ngourav05bhardwaj@gmail.com wants access to a URL in gmail-clone:\ngmail-clone-66b6bnnnf-mrmorpho1s-projects.vercel.app\n\nIf approved, they'll see deployments served at this URL until access is revoked.\n\nManage request`
+  },
   // --- OCTOBER 2026 ---
   {
     sender: 'Supabase',
@@ -1085,8 +1125,8 @@ const new100Emails = [
 const enrichedNew = new100Emails.map((e, idx) => ({
   id: (101 + idx).toString(),
   sender: e.sender,
-  senderEmail: `${e.sender.toLowerCase().replace(/[^a-z0-9]/g, '')}@example.com`,
-  to: 'me <user@example.com>',
+  senderEmail: e.senderEmail || `${e.sender.toLowerCase().replace(/[^a-z0-9]/g, '')}@example.com`,
+  to: e.to || 'me <user@example.com>',
   subject: e.subject,
   snippet: e.snippet,
   body: e.body || `${e.snippet.replace(/^- /, '')}\n\nPlease reach out if you have any questions.\n\nBest regards,\n${e.sender}`,
@@ -1101,24 +1141,31 @@ const enrichedNew = new100Emails.map((e, idx) => ({
   attachments: e.attachments || []
 }));
 
-// Combine existing 100 emails + 100 new emails = 200 emails
-const combined = [...existing100, ...enrichedNew];
+// Combine and sort chronologically descending
+const sorted = sortEmailsByDate([...existing100, ...enrichedNew]);
+// Keep unique by subject or deduplicate if any duplicates exist
+const seenSubjects = new Set();
+const uniqueEmails = [];
+for (const email of sorted) {
+  if (!seenSubjects.has(email.subject)) {
+    seenSubjects.add(email.subject);
+    uniqueEmails.push(email);
+  }
+}
 
-// Re-assign distinct sequential IDs 1 to 200 and sort chronologically descending
-const sorted = sortEmailsByDate(combined);
-const all200Emails = sorted.map((e, index) => ({
+const all200Emails = uniqueEmails.map((e, index) => ({
   ...e,
   id: (index + 1).toString()
 }));
 
 console.log('Total emails in final dataset:', all200Emails.length);
-console.log('First email:', all200Emails[0].time, all200Emails[0].sender);
+console.log('First email:', all200Emails[0].time, all200Emails[0].sender, all200Emails[0].subject);
 console.log('Last email:', all200Emails[all200Emails.length - 1].time, all200Emails[all200Emails.length - 1].sender);
 
 const fileContent = `export const INITIAL_EMAILS = ${JSON.stringify(all200Emails, null, 2)};\n`;
 
-const target1 = path.resolve('/home/joyboy/Desktop/gmail-clone-devu/gmail-clone/src/data/emails.js');
-const target2 = path.resolve('/home/joyboy/Desktop/gmail-clone/src/data/emails.js');
+const target1 = path.resolve('/home/joyboy/Desktop/Desktop/gmail-clone (2)/src/data/emails.js');
+const target2 = path.resolve('/home/joyboy/Desktop/Desktop/gmail-clone/src/data/emails.js');
 const target3 = path.resolve('/home/joyboy/.gemini/antigravity/scratch/gmail-clone/src/data/emails.js');
 
 fs.writeFileSync(target1, fileContent, 'utf-8');
